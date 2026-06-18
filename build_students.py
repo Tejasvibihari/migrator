@@ -155,8 +155,7 @@ os.makedirs("exports", exist_ok=True)
 
 with open(
     "exports/students_ready.json",
-    "w",
-    default=str
+    "w"
 ) as f:
     json.dump(
         output,
